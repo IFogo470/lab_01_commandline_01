@@ -17,6 +17,10 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+bin/  etc/           LICENSE.txt  ReleaseNotes.html  unins000.exe*
+cmd/  git-bash.exe*  mingw64/     tmp/               unins000.msg
+dev/  git-cmd.exe*   proc/        unins000.dat       usr/
+
 
 
 
@@ -106,25 +110,26 @@ Copy and paste the output below.
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+ls -a
+ls -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
+ tab
 
-
-
+enter
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
@@ -140,7 +145,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+command not found
 
 ==========
 15.  Type:
@@ -151,7 +156,7 @@ Copy and paste the output below.
 ----------
 
 
-
+command not found
 ==========
 16.  In the following line....
 
@@ -159,3 +164,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+$
